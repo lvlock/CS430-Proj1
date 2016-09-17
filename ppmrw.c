@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-void main() {
+int main(int argc, char *argv[]) {
 	// Open the file
 	FILE * infile;
 	infile = fopen(P3image.ppm, "r");
